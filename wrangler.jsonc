@@ -6,6 +6,7 @@
 	"$schema": "node_modules/wrangler/config-schema.json",
 	"name": "money-tracker",
 	"main": "src/index.js",
+	"compatibility_flags": ["nodejs_compat"],
 	"compatibility_date": "2025-07-15",
 	"observability": {
 		"enabled": true
